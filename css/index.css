@@ -1,0 +1,67 @@
+@font-face {
+    font-family:roboto;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+body{
+    font-family: roboto;
+    background-color: #EBEBEB;
+}
+.welcome{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.parent {
+  display: flex;
+  justify-content: center; 
+  background-color: white;
+  padding-top: 20px;
+}
+.parent .logo{
+    max-width: 100px;
+    max-height: 100px;
+} 
+.welcome-title{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+.welcome-title p {
+    color: #9c9c9c;
+    font-weight: 100;
+    margin-top: 10px;
+}
+.welcome-title h2 {
+    margin: 0px;
+    color: #DD5555;
+} 
+.pick .pickup-community .community-info h3{
+    color: #DD5555;
+}
+.pick .pickup-community{ 
+  background-color: white;
+  padding: 25px 25px;  
+}  
+circle,
+path {
+  cursor: pointer;
+}
+
+circle {
+  fill: none;
+  pointer-events: all;
+}
+.pick .pickup-community .community-info .community-desc
+{
+    text-align: left;
+    word-wrap: break-word;
+    
+}
+.community-table {
+    padding-right: 12px;
+    padding-left: 12px;
+    border: 1px dashed #DD5555;
+}
+.community-table table{
+    margin-top: 20px; 
+    text-align: left;
+}
