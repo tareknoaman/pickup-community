@@ -5,6 +5,7 @@
 body{
     font-family: roboto;
     background-color: #EBEBEB;
+    font-size:12px;
 }
 .welcome{
     margin-top: 2%;
@@ -34,34 +35,10 @@ body{
     margin: 0px;
     color: #DD5555;
 } 
-.pick .pickup-community .community-info h3{
-    color: #DD5555;
+.pick-com-wheel {
+    background-color: white;
+    padding:40px;
 }
-.pick .pickup-community{ 
-  background-color: white;
-  padding: 25px 25px;  
-}  
-circle,
-path {
-  cursor: pointer;
-}
-
-circle {
-  fill: none;
-  pointer-events: all;
-}
-.pick .pickup-community .community-info .community-desc
-{
-    text-align: left;
-    word-wrap: break-word;
-    
-}
-.community-table {
-    padding-right: 12px;
-    padding-left: 12px;
-    border: 1px dashed #DD5555;
-}
-.community-table table{
-    margin-top: 20px; 
-    text-align: left;
+svg g{
+    cursor: pointer;
 }

@@ -2,48 +2,48 @@
  "name": "flare",
  "children": [
   {
-   "name": "display",
+   "name": "Crafts",
    "children": [
-    {"name": "DirtySprite", "size": 8833},
-    {"name": "LineSprite", "size": 1732},
-    {"name": "RectSprite", "size": 3623},
-    {"name": "TextSprite", "size": 10066}
+    {"name": "Baker", "size": 4000},
+    {"name": "Caterer", "size": 4000},
+    {"name": "Chef", "size": 4000},
+    {"name": "Cobbler", "size": 4000}
    ]
   },
   {
-   "name": "physics",
+   "name": "Engineering",
    "children": [
-    {"name": "DragForce", "size": 1082},
-    {"name": "GravityForce", "size": 1336}
+    {"name": "Cartographer", "size": 4000},
+    {"name": "Draughtsman", "size": 4000},
+    {"name": "Navigators", "size": 4000},
+    {"name": "Mine Surveyor", "size": 4000}
    ]
   },
   {
-   "name": "scale",
+   "name": "HealtScience",
    "children": [
-    {"name": "IScaleMap", "size": 3000},
-    {"name": "LinearScale", "size": 4000}
+    {"name": "Dietician", "size": 4000},
+    {"name": "Naturopath", "size": 4000},
+    {"name": "Oncologist", "size": 4000},
+    {"name": "Geneticist", "size": 4000}
    ]
   },
   {
-   "name": "util",
+   "name": "AppliedAndVisualArt",
    "children": [
-    {"name": "Arrays", "size": 8258},
-    {"name": "Colors", "size": 10001}
+    {"name": "Advertising", "size": 4000},
+    {"name": "Signwriter", "size": 4000},
+    {"name": "Webmaster", "size": 4000},
+    {"name": "Artist", "size": 4000}
    ]
   },
   {
-   "name": "vis",
+   "name": "Clerical",
    "children": [
-    {
-     "name": "axis", "size": 1302
-    },
-    {
-     "name": "controls", "size": 2138
-    },
-    {
-     "name": "legend","size": 20859
-    },
-    {"name": "Visualization", "size": 16540}
+    { "name": "Clerk", "size": 4000 },
+    { "name": "Dispatcher", "size": 4000 },
+    { "name": "Messenger","size": 4000 },
+    {"name": "Typist", "size": 4000}
    ]
   }
  ]
